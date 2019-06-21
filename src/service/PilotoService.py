@@ -1,8 +1,8 @@
-from PilotoRepository import PilotoRepository
+from repository import PilotoRepository
 
 class PilotoService:
     def __init__(self):
-        self.piloto_repository = PilotoRepository()
+        self.piloto_repository = PilotoRepository.PilotoRepository()
     
     def procurar_piloto(self, cod_piloto):
         return self.piloto_repository.procurar_piloto(cod_piloto)

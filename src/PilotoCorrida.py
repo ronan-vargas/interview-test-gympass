@@ -1,5 +1,6 @@
 from datetime import timedelta
 from PilotoCorridaAggregate import PilotoCorridaAggregate
+
 class PilotoCorrida:
     def __init__(self, pilotos, voltas_por_piloto):
         self.pilotos = pilotos

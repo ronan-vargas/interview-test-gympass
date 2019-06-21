@@ -1,10 +1,9 @@
-from VoltaService import VoltaService
-from PilotoService import PilotoService
+from service import VoltaService, PilotoService
 from PilotoCorrida import PilotoCorrida
 class Corrida:
     def __init__(self):
-        self.voltaService = VoltaService()
-        self.pilotoService = PilotoService()
+        self.voltaService = VoltaService.VoltaService()
+        self.pilotoService = PilotoService.PilotoService()
 
     def buscar_voltas_por_piloto(self):
         self.voltas_por_piloto = {}
