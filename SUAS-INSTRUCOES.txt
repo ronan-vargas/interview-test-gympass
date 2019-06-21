@@ -3,4 +3,4 @@ Modo de chamar o programa: corridaLogAnalyser.py <NOME_ARQUIVO_LOG>
 * Os traços apresentados no log foram substituídos por traços comuns para evitar muita perda de tempo com tratamento de unicode;
 * A parte final de apresentação de resultado não está muito organizada, basicamente tudo está na classe PilotoCorrida.
 * Propositalmente não utilizei o SQLite ou qualquer outro banco pra armazenar os dados, assim consigo extrair o que o Python oferece em termos de linguagem e não apelar para funções builtin de banco de dados.
-* Foi incluída uma regex para validar a linha do log, se a linha não segui o padrão, ela é simplesmente ignorada.  
+* Foi incluída uma regex para validar a linha do log, se a linha não seguir o padrão, ela é simplesmente ignorada.  
